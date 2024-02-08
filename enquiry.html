@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="enquiry.css">
+    <!-- <link rel="stylesheet" href="btn.js"> -->
+</head>
+<body>
+    <div id="head_div">
+        <img id="main_logo" src="Images/main_logo.jpg" alt="mainlogo">
+        <navbar id="navbar_div"> 
+          
+            <ul id="navbar">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="tariffs.html">Tariff</a></li>
+                <li><a href="enquiry.html">Enquiry</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+           
+        </navbar>
+    </div> 
+    <div id="main_div"><div id="main_heading">Book Car</div></div>
+
+
+    <div id="entry">
+        <div>
+       <form onsubmit="demofun()">
+        <label >Name -  </label>
+        <input name="input_data" id="input_data" type="text" placeholder="Name"><br><br>
+        <label >email - </label>
+        <input type="email" id="tum" placeholder="email"><br><br>
+        <!-- <label >Phone no- </label> -->
+        <input type="text" id="phn" placeholder="Mobile no"><br><br>
+
+
+
+
+        <label for="">Car pickup location -</label>
+        <input type="text" id="loc"><br><br>
+        <label for="">Car dropoff location-</label>
+        <input type="text" id="loca"><br><br>
+       
+        <label for="date">Car required date -</label>
+        <input type="date" id="date">
+        <label for="">Time</label>
+        <input type="time" id="time"><br><br>
+        <label for="">Car return date -</label>
+        <input type="date" id="tm">
+        <label for="">Time</label>
+        <input type="time" id="da">
+        <br><br>
+
+            <select  name="Car Type" id="che">
+            <option >Car Type</option>
+            <option >Baleno automatic</option>
+            <option >Baleno</option>
+            <option >Venue 2022</option>
+            <option >New Brezza 2023</option>
+            <option >Thar 2022</option>
+            <option >i10 Nios Auto</option>
+            <option >Creta</option>
+            <option >jeep</option>
+            <option >Innova crysta</option>
+            <option >Ertiga</option>
+            <option >Swift Dzire</option>
+            <option >Honda Amaze</option>
+            <option >Swift</option>
+            <option >i20 Elite</option>
+            <option >Maruti lgnis</option>
+            <option >i10 Grand</option>
+            <option >Swift Auto</option>
+            <option >Wagon R</option>
+                </select>
+            <br><br>
+            <!-- <label for="date">Car required date -</label>
+            <input type="date" id="date">
+            <label for="">Time</label>
+            <input type="time" id="time"><br><br>
+            <label for="">Car return date -</label>
+            <input type="date" id="tm">
+            <label for="">Time</label>
+            <input type="time" id="da">
+            <br><br> -->
+           
+            <!-- <label for="">Car pickup location -</label>
+            <input type="text" id="loc"><br><br>
+            <label for="">Car dropoff location-</label>
+            <input type="text" id="loca"><br><br> -->
+
+            <input id="msg" type="text" placeholder="Message" ><br><br>
+            <button id="sbt" onclick="demofun()">submit</button>
+
+    </form>
+    </div>
+</div>
+<script type="text/javascript">
+    function demofun(){
+                var name=document.getElementById('input_data').value;
+                var eml=document.getElementById('tum').value;
+                var mo=document.getElementById('phn').value;
+                var khola=document.getElementById('loc').value;
+                var khol=document.getElementById('loca').value;
+                var chet=document.getElementById('che').value;
+                var mor=document.getElementById('date').value;
+                var tar=document.getElementById('time').value;
+                var tari=document.getElementById('tm').value;
+                var tem=document.getElementById('da').value;
+                // var khola=document.getElementById('loc').value;
+                // var khol=document.getElementById('loca').value;
+                var mar=document.getElementById('msg').value;
+
+                document.writeln("UserName =" +name);
+                document.writeln("EmailId =" +eml);
+                document.writeln("PhoneNo =" +mo);
+                document.writeln("PhoneNo =" +khola);
+                document.writeln("PhoneNo =" +khol);
+                document.writeln("PhoneNo =" +che);
+                document.writeln("PhoneNo =" +mor);
+                document.writeln("PhoneNo =" +tar);
+                document.writeln("PhoneNo =" +tari);
+                document.writeln("PhoneNo =" +tem);
+                // document.writeln("PhoneNo =" +khola);
+                // document.writeln("PhoneNo =" +khol);
+                document.writeln("PhoneNo =" +mar);
+}
+</script>
+
+<div id="terms">
+    <div><h2 id="terms_heading">Terms and Conditions</h2>
+    <ul>
+        <li><P>Specify the start and end dates and times for the rental.</P></li>
+        <li><P>Valid driver's license and/or international driver's permit.</P></li>
+        <li><P>Minimum age requirements.</P></li>
+        <li><p>Cancellation policy and associated fees.</p></li>
+        <li><p>Location and procedure for picking up the vehicle.</p></li>
+        <li><p>Return conditions, including the timeframe and any fees for late returns.</p></li>
+        <li><p>Details on the fuel level at pick-up and requirements for return.</p></li>
+        <li><p>Any restrictions on the number of miles or kilometers allowed during the rental period.</p></li>
+        <li><p>Additional charges for exceeding mileage limits.</p></li>
+        <li><p>Types of insurance provided (e.g., collision damage waiver, liability coverage).</p></li>
+        <li><p>Options for additional insurance coverage and associated costs.</p></li>
+        <li><p>Renter's responsibility for damage during the rental period.</p></li>
+        <li><p>Fees for additional services or equipment (e.g., GPS, child seats).</p></li>
+        <li><p>Renter's responsibility for traffic violations and toll charges.</p></li>
+        <li><p>Restrictions on where the vehicle can be driven.</p></li>
+        <li><p>Penalties for violating terms and conditions.</p></li>
+        <li><p>Charges for cleaning, smoking, or returning the vehicle in poor condition.</p></li>
+        <li><p>Confirmation of the specific vehicle make and model or a similar one.</p></li>
+        <li><p>Policies and fees for taking the rental vehicle across international borders.</p></li>
+        <li><p>Process for resolving disputes between the rental company and the renter.</p>
+        </li>
+    </ul></div>
+    <div id="terms_img_box"><img id="term_img" src="Images/19812112.jpg" alt="tersm"></div>   
+</div>
+<footer id="foot"><div >@ 2023-24 <a href="">Chetu car rental</a>All rigth reserved designed by <a href="">Chetan Ratore</a></div></footer>
+</body>
+</html>

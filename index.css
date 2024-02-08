@@ -1,0 +1,295 @@
+ *{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    
+   
+} 
+/* ----------------HEADER------------- */
+#head_div{
+    width: 100%;
+    height: 90px;
+     display: flex; 
+    border: 2px solid transparent; 
+    background-color: #942678;
+    position: fixed;
+}
+#main_logo{
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    height: 90px;
+    width:15% ;
+    margin-left:3% ;
+}
+
+#navbar_div{
+    height:90px;
+    width: 65%;
+    display: flex;
+    background-color:transparent;
+}
+#navbar{
+    height:90px;
+    width:100%;
+   display: flex;
+   align-items: center;
+   justify-content: space-evenly; 
+   list-style-type: none;
+   font-size: 20px;
+   font-weight: bold;
+} 
+#head_div:hover{
+    border:2px solid gainsboro ;  
+}
+a:hover{
+    color:orangered;
+    text-decoration: underline;
+}
+a{
+    color:#ffffff;
+    text-decoration: none;
+}
+
+
+/* ----------------SLIDESHOW------------------ */
+
+
+.image-slideshow {
+    padding:0px;
+    width: 100%;
+    height:500px;
+  }
+  
+  img {
+    height:500px;
+   width: 100%;
+  }
+  
+  .fade {
+    animation-name: fade;
+    animation-duration: 2s;
+  }
+  
+  /*---------------SERVICES------------- */
+#servise_div{
+    width: 100%;
+    height: 500px;
+    margin: 20px;
+    /* display: flex; */
+    
+} 
+#service_heading_div{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#service_heading{
+    font-size: 50px;
+    color: #942678;
+}
+#main_service_div{
+    width: 100%;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.service_boxes{
+    width: 300px;
+    height: 300px;
+    margin-left: 20px;
+}
+.box_shape{
+      width: 220px;
+      height: 220px;
+      display: flex;
+      align-items: center;
+      
+}
+.service_img{
+    width: 200px;
+      height: 200px;
+      border: 2px solid #942678;
+      border-radius: 100px;
+}
+.service_img_heading{
+       font-size: 30px;
+       color: #942678;
+
+}
+.service_box_btn{
+     width: 94px;
+     height: 32px;
+     background-color: coral;
+     color: #ffffff;
+     border-radius: 15px;
+     margin-top: 10px;
+     margin-left: 50px;
+}
+/* -------------TARIFF------- */
+#tariff{
+    margin-top: 30px;
+    /* height: 2800px; */
+    height: auto;
+    width: 100%;
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+     justify-content: space-around; 
+     flex-wrap: wrap; 
+    
+
+}
+.tum{ 
+    padding-top: 30px;
+    height: 500px;
+    width: 300px;
+   background-color: #ffffff;
+     margin-top: 40px; 
+     border: 2px solid black;
+
+} 
+#ganpati{
+     width: 100%;
+     height:90px;
+     margin-top: 20px;
+     margin-bottom: 10px;
+     color: #942678;
+}
+.hmara{
+    width: 240px;
+    height: 212px;
+}
+.nath{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 0px 5px 0px;
+
+}
+.teri{
+    color: #942678;
+    display: flex;
+    justify-content: center;
+}
+.inr{
+    color: #942678;
+    display: flex;
+    justify-content: center;
+}
+.inner{
+    padding: 20px 10px 20px 10px;
+   /* margin-top: 5px;  */
+   font-size: 18px;
+  margin:10px;
+}
+.bht{
+    padding: 0px;
+    margin-top: 15px;
+    height: 30px;
+    width: 222px;
+    background-color: #942678;
+}
+
+/* ---------------ENQUIRY------- */
+
+#enquiry{
+    /* display:flex; */
+    margin-top: 30px;
+   
+    justify-content: center; 
+    align-items: center;
+    width: 100%;
+    height: 980px;
+   color: #ffffff;
+  background-image:url("Images/jake-blucker-OJX7gIU3E6U-unsplash.jpg"); 
+   background-size: cover;
+}
+#enquiry_heading_div{
+    height: 140px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    /* flex-wrap: wrap; */
+    align-items: center;
+    flex-direction: column;
+    color: yellow;
+    padding: 10px;
+    margin: 20px;
+}
+#enquiry_heading_div h1{
+     font-size: 40px;
+}
+#enquiry_big_container{
+    height:771px;
+    width: 100%;
+    display: flex;
+   justify-content: center;
+   /* margin: 20px; */
+}
+#enquiry_text_container{
+    height:771px;
+    width: 50%;
+    font-size: 20px;
+    border: 2px solid yellow;
+    border-radius: 10px; 
+    padding: 10px;
+    margin: 10px;
+}
+.enquiry_container_heading{
+    font-size: x-large;
+    color: yellow;
+    padding: 5px;
+}
+#btns{
+    height: 30px;
+    border-radius: 8px;
+    background-color: orangered;
+    color: #ffffff;
+    margin-left: 30px;
+    margin-right: 60px;
+}
+#entry{
+    font-size: 20px;
+    height:771px;
+    width: 45%;
+    border: 2px solid yellow;
+    border-radius: 10px; 
+    padding: 10px;
+    padding-left: 30px;
+}
+input{
+    border-radius: 5px;
+    box-shadow: none;
+
+}
+#msg{
+    width: 350px;
+    height: 100px;
+    border-radius: 8px;
+}
+#sbt{
+    height: 30px;
+    width: 100px;
+    border-radius: 8px;
+    margin-left: 200px;
+    background-color: orangered;
+    color: #ffffff;
+
+} 
+/* ----------------FOOTER----------- */
+
+#footer{
+    background-color: #942678;
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+}

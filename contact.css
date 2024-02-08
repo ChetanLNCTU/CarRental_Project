@@ -1,0 +1,179 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    
+   
+} 
+/* ----------------HEADER------------- */
+#head_div{
+    width: 100%;
+    height: 90px;
+     display: flex; 
+    border: 2px solid transparent; 
+    background-color: #942678;
+    position: fixed;
+}
+#main_logo{
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    height: 90px;
+    width:15% ;
+    margin-left:3% ;
+}
+
+#navbar_div{
+    height:90px;
+    width: 65%;
+    display: flex;
+    background-color:transparent;
+}
+#navbar{
+    height:90px;
+    width:100%;
+   display: flex;
+   align-items: center;
+   justify-content: space-evenly; 
+   list-style-type: none;
+   font-size: 20px;
+   font-weight: bold;
+} 
+#head_div:hover{
+    border:2px solid gainsboro ;  
+}
+a:hover{
+    color:orangered;
+    text-decoration: underline;
+}
+a{
+    color:#ffffff;
+    text-decoration: none;
+}
+
+
+ .trh:hover{
+    color:orangered;
+    text-decoration: underline;
+} 
+ .trh{
+    color:#ffffff;
+    text-decoration: none;
+} 
+/* --------------MAIN BOX------------- */
+#main_div{
+    height: 500px;
+    width: 100%;
+    background-image: url("Images/sports-car-driving-asphalt-road-night-generative-ai.jpg");
+   background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+#main_heading{
+    height: 30px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    font-size: 70px;
+   }
+   /* ---------------------CONTACT US----------------- */
+  #cont{
+    height: 760px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+#yha{
+    height: 612px;
+    width: 50%;
+  
+}
+#ght{
+    margin-left: 30px;
+    color: #942678;
+}
+.fir{
+    height: 20px;
+    width: 200px;
+    margin: 20px;
+    padding: 10px;
+}
+#firo{
+    height: 120px;
+    width: 40%;
+    margin: 20px;
+    padding: 10px;
+}
+#bura{
+    height: 40px;
+    width: 170px;
+    margin-left: 30px;
+    margin: 20px;
+    color: red;
+    border-color: red;
+    background-color: transparent;
+}
+#bura:hover{
+    color: #ffffff;
+    background-color: red;
+}
+#icon{
+    height: 20px;
+    width: 20px;
+    
+}
+#vha{
+    height: 612px;
+    width: 50%;
+   
+}
+.aws{
+    font-size: 24px;
+    margin:20px ;
+}
+#hvr{
+    color:red;
+    margin: 20px;
+}
+.fan{
+    margin: 30px;
+    font-size: 20px;
+}
+.turn{
+    margin: 30px;
+    background-color: red;
+    color: #ffffff;
+    text-decoration: none;
+    border: 2px solid;
+    /* font-size: 14px; */
+    padding: 10px;
+     height: 20px; 
+    width: 287px;
+}
+.turn:hover{
+    background-color: darkblue;
+}
+#photo{
+    height: 60px;
+    width: 60px;
+    margin: 20px;
+    font-size: 40px;
+}
+#map{
+    width:100%;
+}
+/* ------------FOOTER---------- */
+#foot{
+    background-color: #942678;
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+}
